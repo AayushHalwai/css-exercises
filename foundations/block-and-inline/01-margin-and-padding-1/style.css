@@ -26,10 +26,18 @@ body {
   padding: 0px;
   margin-left: 0px;
 }
-.subsection.header {
+/* styles.css */
+
+#parent {
   color: red;
 }
 
-.subsection#preview {
-  color: blue;
+.child {
+  color: rgb(9, 215, 36);
 }
+.child {
+  color: burlywood;
+}
+
+
+
