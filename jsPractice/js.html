@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+        background-color: #000;
+        color: aliceblue;
+
+    }       
+    </style>
+</head>
+<body style="background: #000;">
+<!-- <button onclick="alert('Hello World')">Click Me</button> -->
+ <!-- using js -->
+<button class="btn">click</button>
+<!-- <button class="button">Clickme2</button> -->
+
+
+<!-- <button onclick="alertFunction()">CLICK ME BABY</button> -->
+
+
+        <script>
+           
+           
+           
+           // creating elements , append and remove and styling elements
+        //    const newpara = document.createElement("p");
+        //    newpara.textContent = "i am red"
+           
+
+        //    const newh3 = document.createElement("h3");
+        //    newh3.textContent = "i am blue h3"
+
+
+        //     const newdiv = document.createElement("div");
+        //     const newh1 = document.createElement("h1");
+        //     const newpara2 = document.createElement("p");
+        //     newh1.textContent = " I AM A DIV"
+        //     newpara2.textContent = " I AM A DIV too"
+           
+        //     document.body.appendChild(newpara);
+        //     document.body.appendChild(newh3);
+        //     newdiv.appendChild(newh1);
+        //     newdiv.appendChild(newpara2);
+
+        //     document.body.appendChild(newdiv);
+
+        //     newpara.style.color ="red";
+        //     newh3.style.color ="blue";
+
+
+           
+        const btn = document.querySelector(".btn");
+        // btn.onclick = () => alert("hello ");
+
+    //    const button = document.querySelector(".button");
+    //    button.addEventListener("click", () => { alert("hello world")});
+        
+            // function alertFunction(){
+            //     alert("hey what upp");
+            // }
+ 
+            
+            btn.addEventListener("click", function (e) {
+  console.log(e);
+});
+
+           
+           
+
+        </script>   
+</body>
+</html>
